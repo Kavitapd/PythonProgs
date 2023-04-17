@@ -2,12 +2,12 @@
 import sys
 def main():
     try:
-        f=open("file1.txt","r")
-        s=f.read()
-        print(s)
+        file=open("file1.txt","r")
+        strVal=file.read()
+        print(strVal)
     except OSError:
         e=sys.exc_info()
         print(e)
     finally:
-        f.close()
+        file.close()
 main()
