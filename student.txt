@@ -1,0 +1,11 @@
+101,sri,oracle
+102,kavi,python
+101,'sri','oracle'
+102,'kavi','python'
+103,'hari','c'
+104,'java','java'
+105,'pari','.net'
+101,sri,oracle
+102,kavi,python
+103,hari,.net
+104,pari,c++
